@@ -13,9 +13,11 @@ function addNumbers() {
 //Declare a new variable, 'nums', and assign it to an array of firstNum and secondNum
   var nums = [firstNum, secondNum]
 
-// Declare a variable called product and assign it
+// Declare a variable called product and assign it firstNum multiplied by secondNum
   var product = firstNum * secondNum
+  // Declare a variable called sum and assign it the the variable firstNum plus secondNum
   var sum = firstNum + secondNum
+  // Declare a variable called average that is assigned the variable sum divided bu nums.length
   var average = sum / nums.length
 
 // log to the console the first value in the nums array
